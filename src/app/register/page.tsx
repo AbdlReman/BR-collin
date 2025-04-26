@@ -15,7 +15,7 @@ const Register: React.FC = () => {
     <section className="">
       <div className="flex flex-col lg:flex-row w-full bg-org">
         {/* Left Side */}
-        <div className="w-full lg:w-2/3 bg-[#0365AD] text-white relative py-12 lg:py-0">
+        <div className="w-full lg:w-2/3 bg-[#0365AD] text-white relative py-12 lg:py-0 h-[100vh]">
           <div className="absolute bottom-0 w-full lg:w-[712px]">
             <Image src={B} alt="Decorative background element" className="w-full" />
           </div>

@@ -6,6 +6,7 @@ import { UserProvider } from "./components/context/CartContext";
 import { TopBanner } from "./components/TopBanner";
 import { Navigation } from "./components/Navigation";
 import Footer from "./components/Footer";
+import ClientLayout from "./components/ClientLayout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,9 +35,9 @@ export default function RootLayout({
           <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
             <main className="flex overflow-hidden flex-col bg-white">
               <TopBanner />
-              <Navigation />
-              {children}
-              <Footer />
+              <ClientLayout>
+                {children}
+              </ClientLayout>
             </main>
           </body>
         </html>

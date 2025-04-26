@@ -86,17 +86,14 @@ export const Navigation = () => {
       {/* Desktop Right Section */}
       <div className="items-center flex-grow hidden md:flex gap-10 justify-between">
         <div className="flex gap-8 items-center font-medium">
-          <a href="/" className="hover:text-sky-600">
-            Home
-          </a>
-          <Link href="/about" className="hover:text-sky-600">
-            About
+          <Link href="/subscriptions" className="hover:text-sky-600">
+            Subscription
           </Link>
-          <a href="/contact" className="hover:text-sky-600">
-            Contact Us
+          <a href="/about" className="hover:text-sky-600">
+            About
           </a>
-          <Link href="/dashboard" className="hover:text-sky-600">
-            Dashboard
+          <Link href="/contact" className="hover:text-sky-600">
+            Contact Us
           </Link>
         </div>
 
@@ -157,17 +154,14 @@ export const Navigation = () => {
 
           {/* Navigation Links */}
           <div className="flex flex-col gap-4 text-lg">
-            <a href="/" className="p-2 hover:bg-gray-100 rounded">
-              Home
+            <a href="/subscriptions" className="p-2 hover:bg-gray-100 rounded">
+              Subscriptions
             </a>
             <a href="/about" className="p-2 hover:bg-gray-100 rounded">
               About
             </a>
             <a href="/contact" className="p-2 hover:bg-gray-100 rounded">
               Contact Us
-            </a>
-            <a href="/dashboard" className="p-2 hover:bg-gray-100 rounded">
-              Dashboard
             </a>
           </div>
 

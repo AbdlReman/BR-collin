@@ -8,9 +8,9 @@ import Link from "next/link"; // If using react-router-dom, import from "react-r
 const Login: React.FC = () => {
   return (
     <section className="">
-      <div className="flex flex-col lg:flex-row w-full bg-org">
+      <div className="flex flex-col lg:flex-row w-full bg-org h-[100%]">
         {/* Left Section */}
-        <div className="w-full lg:w-2/3 bg-[#0365AD] text-white relative py-12 lg:py-0">
+        <div className="w-full lg:w-2/3 bg-[#0365AD] text-white relative py-12 lg:py-0 h-[100vh]">
           <div className="absolute bottom-0 w-full lg:w-[712px]">
             <Image src={B} alt="Decorative background" className="w-full h-auto" />
           </div>
